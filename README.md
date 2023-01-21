@@ -32,11 +32,11 @@ This repo started as a fork of https://github.com/openai/gpt-discord-bot
 # Setup
 
 1. - you can edit lines of 52-56 of `completion.py`
-     engine="code-davinci-002", (OPEN AI MODEL)
+     ```engine="code-davinci-002", (OPEN AI MODEL)
             prompt=rendered,
             temperature=0.1,
             top_p=0.9,
-            max_tokens=400,
+            max_tokens=400,```
             
 
 2. Copy `.env.example` to a new file called`.env` and start filling in the values as detailed below
