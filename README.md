@@ -1,7 +1,8 @@
-#gpt_codex_bot_v_0.5.0
-# Last updated: 01/21/2023
-# Did this help? Send me some sats so I can buy more openAI tokens :)
-# btc`bc1qmgtpdfejv0k4mr9uv77v0nrg6jnxh4vtpcg5ee` or `carrywait.eth`
+# gpt_codex_bot_v_0.5.0
+### Last updated: 01/21/2023
+
+###### Did this help you out? Send me some sats so I can buy more openAI tokens :)
+###### btc`bc1qmgtpdfejv0k4mr9uv77v0nrg6jnxh4vtpcg5ee` or `carrywait.eth`
 ```
 tweet_embed(tweet_url("CarryWait", "1616872926569021441"))
 https://twitter.com/CarryWait/status/1616872926569021441
