@@ -1,3 +1,6 @@
+```
+https://twitter.com/CarryWait/status/1616872926569021441
+```
 # gpt_codex_bot
 
 Discord bot written in Python that uses the [completions API](https://beta.openai.com/docs/api-reference/completions) to have conversations with the `code-davinci-002` model, and the [moderations API](https://beta.openai.com/docs/api-reference/moderations) to filter the messages.
