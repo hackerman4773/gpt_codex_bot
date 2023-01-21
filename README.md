@@ -39,7 +39,6 @@ This repo started as a fork of https://github.com/openai/gpt-discord-bot
             top_p=0.9,
             max_tokens=400,
     ```
-            
 2. Copy `.env.example` to a new file called`.env` and start filling in the values as detailed below
     1. Go to https://beta.openai.com/account/api-keys, create a new API key, and fill in `OPENAI_API_KEY`
     2. Create your own Discord application at https://discord.com/developers/applications
