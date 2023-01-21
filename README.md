@@ -31,7 +31,7 @@ This repo started as a fork of https://github.com/openai/gpt-discord-bot
 
 # Setup
 
-1. - you can edit lines of 52-56 of `completion.py`
+1. - you can edit these lines of `completion.py`
      ```
             model="code-davinci-002",
             prompt=rendered,
