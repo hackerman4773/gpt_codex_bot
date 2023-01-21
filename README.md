@@ -1,12 +1,18 @@
 # gpt_codex_bot_v_0.5.0
+
 ### Last updated: 01/21/2023
 
-###### Did this help you out? Send me some sats so I can buy more openAI tokens :)
-###### btc`bc1qmgtpdfejv0k4mr9uv77v0nrg6jnxh4vtpcg5ee` or `carrywait.eth`
+Did this help you out? Send me some sats so I can buy more openAI tokens :)
+btc:
 ```
-tweet_embed(tweet_url("CarryWait", "1616872926569021441"))
-https://twitter.com/CarryWait/status/1616872926569021441
+bc1qmgtpdfejv0k4mr9uv77v0nrg6jnxh4vtpcg5ee
 ```
+```
+carrywait.eth
+```
+
+[Go to Twitter Site](https://twitter.com/CarryWait/status/1616872926569021441)
+
 # gpt_codex_bot:
 
 Discord bot written in Python that uses the [completions API](https://beta.openai.com/docs/api-reference/completions) to have conversations with the `code-davinci-002` model, and the [moderations API](https://beta.openai.com/docs/api-reference/moderations) to filter the messages.
