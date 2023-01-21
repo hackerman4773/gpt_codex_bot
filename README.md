@@ -32,11 +32,13 @@ This repo started as a fork of https://github.com/openai/gpt-discord-bot
 # Setup
 
 1. - you can edit lines of 52-56 of `completion.py`
-     ```engine="code-davinci-002", (OPEN AI MODEL)
+     ```
+            engine="code-davinci-002", (OPEN AI MODEL)
             prompt=rendered,
             temperature=0.1,
             top_p=0.9,
-            max_tokens=400,```
+            max_tokens=400,
+    ```
             
 
 2. Copy `.env.example` to a new file called`.env` and start filling in the values as detailed below
@@ -47,7 +49,7 @@ This repo started as a fork of https://github.com/openai/gpt-discord-bot
             - Disable "Public Bot" unless you want your bot to be visible to everyone
             - Enable "Message Content Intent" under "Privileged Gateway Intents"
     3. Go to the OAuth2 tab, copy your "Client ID", and fill in `DISCORD_CLIENT_ID`
-    4. Copy the ID the server you want to allow your bot to be used in by right clicking the server icon and clicking "Copy ID". (MUST HAVE DEV MODE TURNED ON IN YOUR DISCORD ACCOUNT)
+    4. Copy the ID the server you want to allow your bot to be used in by right clicking the server icon and clicking "Copy ID". (MUST HAVE DEV MODE TURNED ON IN YOUR DISCORD ACCOUNT see Advanced Settings)
     Fill in `ALLOWED_SERVER_IDS`. If you want to allow multiple servers, separate the IDs by "," like `server_id_1,server_id_2`
 
 # Optional configuration
