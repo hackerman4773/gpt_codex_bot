@@ -42,7 +42,7 @@ This repo started as a fork of https://github.com/openai/gpt-discord-bot
 2. Copy `.env.example` to a new file called`.env` and start filling in the values as detailed below
     1. Go to https://beta.openai.com/account/api-keys, create a new API key, and fill in `OPENAI_API_KEY`
     2. Create your own Discord application at https://discord.com/developers/applications
-        1. Go to the Bot tab and click "Add Bot"
+        	1. Go to the Bot tab and click "Add Bot"
             - Click "Reset Token" and fill in `DISCORD_BOT_TOKEN`
             - Disable "Public Bot" unless you want your bot to be visible to everyone
             - Enable "Message Content Intent" under "Privileged Gateway Intents"
